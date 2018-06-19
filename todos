@@ -1,8 +1,8 @@
 front-end test
 back-end test
 
-git share front-end
-git share back-end
+git share and push front-end
+git share and push back-end
 
 
 - web server 
@@ -23,5 +23,29 @@ case 1. war deploy for back-end
 case 2. static file deploy for front-end
 
 
+deploy step
+qa server - product server
 
+
+배포스크립트 case
+
+local development - local test -  git push - jenkins auto build to qa - jenkins auto deploy to qa (if build success )  - jenkins  send qa test request mail to qa tester ( if qa was restart success)
+
+qa tester run product deploy script - product test
+
+jenkins product deploy and server restart and when error was log view ???????
+
+
+ 
+
+dev (developer)  - git push (developer) - jenkins deploy and test (tester)
+
+
+
+
+배포 대상 소스 아닌 경우 git push 되면 시스템에서 commit comment 에 배포 대상 일감이 아닌경우 커밋 방지 또는 자동 revert 기능
+
+Subversion Revert
+Automatically performs Subversion reverting when the build status changes to unstable or failed.
+ 
 
