@@ -17,3 +17,11 @@ git commit and push
 
 
 jenkins auto build deploy 
+
+
+case 1. war deploy for back-end
+case 2. static file deploy for front-end
+
+
+
+
