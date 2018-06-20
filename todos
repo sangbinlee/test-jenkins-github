@@ -50,3 +50,13 @@ Automatically performs Subversion reverting when the build status changes to uns
  
 
 oracle tunning
+
+
+
+
+
+
+
+vc(version control) - web hook (check out ) or schedule -  code build - test - report - dashboard
+
+
